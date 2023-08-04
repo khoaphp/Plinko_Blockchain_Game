@@ -1,0 +1,186 @@
+h3 {
+  font-weight: normal;
+}
+#screenX{
+
+    background:black;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    opacity: 0.9;
+
+}
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: black;
+  color:aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tLeft{border-right: solid 1px #333231;}
+
+div.chip {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+#plinko-board {
+  position: relative;
+  width: 767px;
+  height: 628px;
+  background-image: url('board.png');
+}
+ul.buckets,
+ul.percents {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 5px 0;
+}
+ul.buckets {
+  bottom: -2em;
+  border-bottom: 1px solid black;
+}
+ul.percents {
+  bottom: -3.5em;
+}
+ul.buckets li,
+ul.percents li {
+  list-style: none;
+  float: left;
+  display: block;
+  margin-left: 10.45%;
+  width: 31px;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 7fr 3fr;
+  width: 1024px;
+  gap: 20px;
+}
+
+.controller {
+  background-color: black;
+}
+
+.control {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+  width: 767px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-blue {
+  background-color: rgb(34, 131, 246);
+  border-color: rgb(25, 84, 155);
+  color: white;
+}
+
+.btn-green {
+  background-color: rgb(59, 220, 74);
+  border-color: rgb(42, 137, 51);
+  color: white;
+}
+
+.btn-red {
+  background-color: rgb(251, 83, 119);
+  border-color: rgb(184, 35, 67);
+  color: white;
+}
+
+#target-number {
+  width: 300px;
+  height: 30px;
+  padding: 8px;
+}
+
+
+.block{ width: 100%; min-height: 50px; border: solid 1px; 
+  border-color:black; padding:10px; margin-bottom: 10px; margin-top: 10px;
+  background-color:#0c110d;
+}
+
+.tab{border: solid 1px; border-color:#333231; width: 44.6%; float:left;
+    text-align: center; padding: 5px; cursor: pointer;
+    border-bottom: none;
+}
+
+.block2{width: 100%; display: block; clear: both;;}
+#tabheader{display: block; clear: both;;}
+.tabContent{border: solid 1px ;border-color:#333231; 
+  width: 90%; padding:10px; background-color: #333231;}
+
+#tbInfo tr td{text-align: center;}
+
+#txtAmountDep, #txtAmountWit, #txtAff{width: 55%; float: left; margin-right: 10px; 
+  background-color: #333231; border:solid 1px gray ; padding:2px; color: white;}
+#btnDeposit, #btnWithdraw, #btnCopy{width: 30%; float: left;}
+
+#txtAff{margin-top: 10px;}
+#logo{width: 90%; margin-left:25px}
+#btnCopy{margin-top: 10px;}
+
+#login_metamask{cursor: pointer; width: 80%; margin-left: 30px;}
+
+.btnPlay{width: 33%; padding:20px; text-align: center;}
+.btnPlay input{border: none; border-bottom: solid 1px white; background-color: dodgerblue; color:whitesmoke; text-align: center;
+  width: 50%;
+}
+.buttonBlue{ width: 30%; padding:5px; background-color: none; color: white; border: solid 1px whitesmoke;
+background-color: dodgerblue; margin-left: 15px; cursor: pointer;
+}
+.buttonGreen{ width: 30%; padding:5px; background-color: none; color: black; border: solid 1px black;
+  background-color: chartreuse; margin-left: 15px; cursor: pointer;
+  }
+.buttonRed{ width: 30%; padding:5px; background-color: none; color: white; border: solid 1px whitesmoke;
+    background-color: crimson; margin-left: 15px; cursor: pointer;
+    }
+
+.btn-blue{background-color: dodgerblue;}
+.btn-green{background-color: chartreuse;}
+.btn-red{background-color: crimson;}
+
+#amount_green{background-color: chartreuse; color: black;}
+#amount_red{background-color: crimson; color:whitesmoke}
+
+#pronouce{
+
+  background:black;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0.95;
+  max-height: 750px;
+  overflow-y: scroll;
+
+}
+#betList{margin: auto; width: 600px; margin-top: 10px;}
+#firstRow td{text-transform: uppercase; font-weight: bold; padding: 10px; color: chartreuse;}
+.listBetsRow td{padding:10px}
+.betWin{color: chartreuse;}
+.betDraw{color:darkslategray}
+.betLoose{color:red}
+#closePronouce{float: right; width: 70px; height: 70px; margin-right: 10px; margin-top: 10px; cursor: pointer; opacity: 0.5;}
+
+#blockHistory{text-align: center; width: 87%; padding:25px; border:  solid 1px #0c110d; cursor: pointer; text-transform: uppercase;}
+#blockHistory:hover{background-color: #333231;}
+

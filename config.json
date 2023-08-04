@@ -1,0 +1,28 @@
+{
+    "domain":"http://localhost:3000",
+    "domainVerify":"http://localhost:3001",
+    "title": "Plinko Game",
+    "connectionString":"",
+    "urlRPC":"https://data-seed-prebsc-1-s1.binance.org:8545/",
+    "contract_Deposit":"0x3ACa222003FE08607AfcF0Fcf514FE1FD2984899",
+    "contract_Token" : "0x8Be288A9faa4E130Cb81a72017C33fD6B9F964Ab",
+    "tokenSymbol":"KPT",
+    "blockchain":{
+        "chainId":97,
+        "messageErr":"Please change to Binance Smart Chain Testnet"
+    },
+
+    "note":"If you want to upgrade to Blockchain project with full function: Set up win/lose ratio, withdraw, fee... Please contact us khoapham.com@gmail.com",
+    "premiumFunction":{
+        "winRatio":{
+            "easy":true,
+            "medium":true,
+            "hard":true,
+            "nighmare":true
+        },
+        "withdrawFee_ratio":3,
+        "walletAutoReceiveTax":""
+    },
+    "secretTokenNo":"JK(*&*(&(*@!EHJK)d8y2asdadadadda312rldkladkjasd1213spoajf",
+    "contact":"khoapham.com@gmail.com"
+}

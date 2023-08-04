@@ -6,9 +6,9 @@ Plinko - A blockchain Game with Nodejs backend, Web3, MongoDB. You can download 
 
 ### Open config.json and change to your chain you want.
 
-1. Setup Mongodb (local or Cloud is acceptable)
-2. Choose which blockchain you want, recommend: Binance Smart Chain Testnet (Mainet if you want). 
-3. Visit https://docs.bscscan.com/misc-tools-and-utilities/public-rpc-nodes for more RPC url.
+1. Setup Mongodb (local or Cloud is acceptable, ex https://mongodb.com)
+2. Choose which blockchain you want, recommend: Binance Smart Chain Testnet (Mainnet if you want). Deploy contract Token.sol & Deplsit.sol (inside folder sol), and update address line 7 & 8
+3. You can choose any Chain you want, ex Polygon, BSC, Coinex, Ethereum, Aribitrum...  Just visit https://docs.bscscan.com/misc-tools-and-utilities/public-rpc-nodes for more RPC url. In config.json, by default, I'm using Binance Smart Chain Testnet
 
 # Upgrade functions
 

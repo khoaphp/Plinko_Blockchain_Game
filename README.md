@@ -1,4 +1,4 @@
-# Plino Game
+# Plinko Blockchain Game
 
 ![](https://loteries.lotoquebec.com/loteries/___Waf6ede3f-1a4e-418d-9877-91227464c743___.png)
 
